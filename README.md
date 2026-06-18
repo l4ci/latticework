@@ -2,7 +2,7 @@
 
 A collection of structured thinking and analysis frameworks, packaged as agent skills. Each skill lives in its own folder and is written to be **model- and harness-agnostic**, usable from Claude Code, Codex, Copilot CLI, Gemini CLI, or any agent runtime that can load a skill.
 
-Most are business strategy, analysis, and management frameworks: SWOT, Porter's Five Forces, the Business Model Canvas, Hoshin Kanri, and so on. Others cover the human side of work: team development, behavior change, conflict, and negotiation. And a few are general-purpose thinking and research tools, including [cynefin](skills/cynefin/), [six-thinking-hats](skills/six-thinking-hats/), [cognitive-bias-audit](skills/cognitive-bias-audit/), [pre-mortem](skills/pre-mortem/), [mece-decomposition](skills/mece-decomposition/), [scqa-pyramid](skills/scqa-pyramid/), [storm-research](skills/storm-research/), and [ocean-personality-test](skills/ocean-personality-test/).
+Most are business strategy, analysis, and management frameworks: SWOT, Porter's Five Forces, the Business Model Canvas, Hoshin Kanri, and so on. Others cover the human side of work: team development, behavior change, conflict, and negotiation. And a few are general-purpose thinking and research tools, including Cynefin, the Six Thinking Hats, a cognitive bias audit, the pre-mortem, MECE decomposition, the SCQA pyramid, STORM research, and the OCEAN personality test.
 
 ## Available skills
 
@@ -134,12 +134,14 @@ General-purpose reasoning tools, not tied to business strategy. Reach for these 
 | Skill | What it does |
 |-------|--------------|
 | [storm-research](skills/storm-research/) | PhD-level research on a topic. Fans out five expert perspectives as parallel subagents, maps their contradictions, synthesizes a briefing, and peer-reviews it with confidence scores. Parallel replication of Stanford's STORM method. |
+| [analysis-of-competing-hypotheses](skills/analysis-of-competing-hypotheses/) | Decides which of several rival explanations the evidence actually supports (Heuer's ACH). Proposes a near-exhaustive hypothesis set, scores every datum against each hypothesis in parallel by working to disprove, drops non-diagnostic evidence, ranks by fewest weighted inconsistencies, then stress-tests the linchpin facts for fragility and deception. Ranks by disconfirmation, not confirmation. |
 
 ### Personal insight
 
 | Skill | What it does |
 |-------|--------------|
 | [ocean-personality-test](skills/ocean-personality-test/) | Conducts the Big Five (OCEAN) personality test conversationally using the public-domain 50-item IPIP questionnaire, scores each dimension, and writes a detailed markdown report. |
+| [hexaco-personality-test](skills/hexaco-personality-test/) | Conducts the HEXACO six-factor personality test conversationally using the public-domain 240-item IPIP-HEXACO questionnaire, scoring each factor and its facets. Adds Honesty-Humility, the integrity dimension Big Five omits. The longer, facet-level companion to the OCEAN test. |
 
 ## What's a skill?
 
