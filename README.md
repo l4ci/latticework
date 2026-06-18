@@ -2,7 +2,7 @@
 
 A collection of structured thinking and analysis frameworks, packaged as agent skills. Each skill lives in its own folder and is written to be **model- and harness-agnostic**, usable from Claude Code, Codex, Copilot CLI, Gemini CLI, or any agent runtime that can load a skill.
 
-Most are business strategy, analysis, and management frameworks: SWOT, Porter's Five Forces, the Business Model Canvas, Hoshin Kanri, and so on. A few are general-purpose thinking and research tools, including [pre-mortem](skills/pre-mortem/), [mece-decomposition](skills/mece-decomposition/), [scqa-pyramid](skills/scqa-pyramid/), [storm-research](skills/storm-research/), and [ocean-personality-test](skills/ocean-personality-test/).
+Most are business strategy, analysis, and management frameworks: SWOT, Porter's Five Forces, the Business Model Canvas, Hoshin Kanri, and so on. Others cover the human side of work: team development, behavior change, conflict, and negotiation. And a few are general-purpose thinking and research tools, including [cynefin](skills/cynefin/), [six-thinking-hats](skills/six-thinking-hats/), [cognitive-bias-audit](skills/cognitive-bias-audit/), [pre-mortem](skills/pre-mortem/), [mece-decomposition](skills/mece-decomposition/), [scqa-pyramid](skills/scqa-pyramid/), [storm-research](skills/storm-research/), and [ocean-personality-test](skills/ocean-personality-test/).
 
 ## Available skills
 
@@ -50,6 +50,8 @@ Most are business strategy, analysis, and management frameworks: SWOT, Porter's 
 | [impact-feasibility-matrix](skills/impact-feasibility-matrix/) | Prioritizes a list of options by impact and feasibility (the impact-effort matrix). Calibrates the axes, scores options in parallel, then sequences a plan of quick wins, major projects, fill-ins, and tasks to drop. |
 | [weighted-decision-matrix](skills/weighted-decision-matrix/) | Chooses among options against multiple weighted criteria. Calibrates the criteria, weights, and scale first, scores each option in parallel, then computes weighted totals, ranks, and runs a sensitivity check. Generalizes the impact-feasibility matrix to many criteria. |
 | [pre-mortem](skills/pre-mortem/) | Stress-tests a plan or decision before you commit. Fans out parallel failure-finder subagents across distinct risk lenses, scores the risks by likelihood and impact, and designs mitigations for the worst ones. |
+| [fmea](skills/fmea/) | Failure Mode and Effects Analysis. Scopes a process, product, or design, breaks it into functions, then one parallel analyst per function lists failure modes and scores Severity, Occurrence, and Detection. Synthesis computes the Risk Priority Number, ranks the modes, applies an action threshold and a high-severity override, and recommends actions that cut S, O, or D. The systematic, scored cousin of the pre-mortem. |
+| [rice-prioritization](skills/rice-prioritization/) | Ranks a backlog by Intercom's RICE score (Reach x Impact x Confidence / Effort). Calibrates the goal, reach window, impact scale, confidence levels, and effort unit, scores each initiative in parallel, then computes and ranks the scores, runs a sensitivity check on confidence and effort, and recommends a roadmap order. The product-roadmap cousin of the weighted decision matrix. |
 
 ### Process and innovation methods
 
@@ -60,6 +62,9 @@ Most are business strategy, analysis, and management frameworks: SWOT, Porter's 
 | [design-thinking](skills/design-thinking/) | Facilitates the five Design Thinking modes (Empathize, Define, Ideate, Prototype, Test) as an iterative loop, with parallel idea generation during Ideate and a living design document. |
 | [lean-startup](skills/lean-startup/) | Runs a Build-Measure-Learn loop: surfaces leap-of-faith assumptions, ranks them by risk in parallel, designs a minimum viable test with a pre-committed metric, and decides pivot or persevere. |
 | [business-model-canvas](skills/business-model-canvas/) | Maps how a business creates, delivers, and captures value across the nine blocks of Osterwalder's Business Model Canvas. One parallel analyst per block, then a synthesis pass checks whether the blocks cohere and flags the riskiest assumptions. |
+| [value-proposition-canvas](skills/value-proposition-canvas/) | Osterwalder's Value Proposition Canvas, the companion that zooms into the customer-and-value fit. Six parallel analysts describe and rank the customer profile (jobs, pains, gains) and the value map (products, pain relievers, gain creators), then a fit pass checks which top pains and gains the offer actually addresses and which relievers chase things nobody ranks high. |
+| [jobs-to-be-done](skills/jobs-to-be-done/) | Finds the job a customer hires a product to do. Defines the customer and the struggling moment, fans out parallel analysts across the functional, emotional, and social job, the desired outcomes, the competing solutions, and the four forces of progress, then writes the job story and ranks outcomes by opportunity to show where current solutions underserve. |
+| [kano-model](skills/kano-model/) | Classifies product features by how they drive satisfaction (must-be, performance, attractive, indifferent, reverse). One parallel analyst per feature works the functional and dysfunctional responses for a segment, then synthesis covers the must-bes first, picks the performance features to compete on, chooses a few delighters, and sequences with a decay timeline. |
 
 #### Process improvement
 
@@ -67,6 +72,7 @@ Most are business strategy, analysis, and management frameworks: SWOT, Porter's 
 |-------|--------------|
 | [six-sigma-dmaic](skills/six-sigma-dmaic/) | Guides a Six Sigma DMAIC cycle (Define, Measure, Analyze, Improve, Control) with phase gates, parallel root-cause hypotheses verified against data, and a project document. |
 | [pdca-cycle](skills/pdca-cycle/) | Guides a lightweight PDCA loop (Plan, Do, Check, Act): plan a change with a prediction, try it small, check against the prediction, and adopt, adjust, or abandon, then loop. |
+| [root-cause-analysis](skills/root-cause-analysis/) | Finds and verifies the root cause of a problem with the Ishikawa fishbone and the 5 Whys. Parallel finders hunt candidate causes across the cause categories (the 6 Ms), then the strongest are drilled with why-chains to verified roots, separated from contributing causes, and turned into countermeasures that remove the roots rather than the symptom. |
 
 ### Execution and change
 
@@ -86,6 +92,42 @@ Most are business strategy, analysis, and management frameworks: SWOT, Porter's 
 | [kotter-change](skills/kotter-change/) | Leads an organizational change through Kotter's eight steps (urgency, coalition, vision, communication, removing barriers, short-term wins, sustaining, anchoring). A phased facilitator with a gate check per step and a living change plan. |
 | [adkar](skills/adkar/) | Diagnoses the people side of a change with ADKAR (Awareness, Desire, Knowledge, Ability, Reinforcement). Five parallel subagents assess each element per affected group, then a synthesis pass finds the barrier point where change stalls and designs targeted interventions. |
 | [force-field-analysis](skills/force-field-analysis/) | Lewin's force field analysis for a proposed change. Parallel finders hunt the driving and restraining forces across several lenses and score each, then synthesis builds the net field and finds the highest-leverage moves, favoring the weakening of restrainers. |
+
+### People and teams
+
+Frameworks for the human side of work: how teams develop, how people respond to change, and how to handle conflict and negotiation.
+
+#### Team dynamics
+
+| Skill | What it does |
+|-------|--------------|
+| [five-dysfunctions-of-a-team](skills/five-dysfunctions-of-a-team/) | Diagnoses a team against Lencioni's pyramid (trust, conflict, commitment, accountability, results). One parallel analyst per layer scores it against the tells, then synthesis finds the lowest broken layer, traces how a cracked base surfaces as symptoms higher up, and sequences the rebuild from the base. |
+| [psychological-safety](skills/psychological-safety/) | Diagnoses whether a team is safe for interpersonal risk-taking (Edmondson). Parallel assessors score the climate across voice, response to mistakes, help-seeking, inclusion, and challenge, then synthesis places the team on the safety-by-accountability grid and prescribes leader practices to reach the learning zone, not mere comfort. |
+| [tuckman](skills/tuckman/) | Locates a team's stage of development (Forming, Storming, Norming, Performing, Adjourning). One parallel assessor per stage scores the team against its markers and notes regression, then synthesis names the current stage and the matching leadership focus and moves to advance, especially past the Storming stall. |
+
+#### Motivation and behavior
+
+| Skill | What it does |
+|-------|--------------|
+| [com-b](skills/com-b/) | Diagnoses why a behavior is or is not happening (Capability, Opportunity, Motivation) and routes to the right intervention via the Behaviour Change Wheel. Six parallel analysts test the sub-components, then synthesis names the binding constraint and the intervention functions that fit it, guarding the reflex to reach for motivation when the gap is opportunity or capability. |
+| [scarf](skills/scarf/) | Analyzes a change, interaction, or message for social threat and reward across five domains (Status, Certainty, Autonomy, Relatedness, Fairness). One parallel analyst per domain scores the threat and reward it creates, then synthesis ranks the biggest threats and designs domain-specific moves to lower threat and raise reward. |
+
+#### Conflict and negotiation
+
+| Skill | What it does |
+|-------|--------------|
+| [thomas-kilmann](skills/thomas-kilmann/) | Chooses the conflict-handling mode that fits a situation (Competing, Collaborating, Compromising, Avoiding, Accommodating) on the assertiveness-by-cooperativeness grid. One parallel analyst per mode scores its fit, then synthesis recommends a primary mode and a fallback and flags when a habitual default is mismatched to this situation. |
+| [negotiation-prep](skills/negotiation-prep/) | Prepares for a negotiation with principled, interest-based bargaining plus BATNA and ZOPA. Parallel analysts work both sides' interests and BATNAs and the options for mutual gain, then synthesis maps the zone of possible agreement, sets target and walk-away, and sequences the moves. Interests over positions; your BATNA is your power. |
+
+### Thinking and decision
+
+General-purpose reasoning tools, not tied to business strategy. Reach for these to pick the right approach to a problem or to examine a decision from every angle.
+
+| Skill | What it does |
+|-------|--------------|
+| [cynefin](skills/cynefin/) | Classifies the issues in a messy situation into Cynefin's domains (Clear, Complicated, Complex, Chaotic, Disorder) so each gets the right approach. Surfaces the constituent issues, classifies each in parallel with its matching action model, then maps the portfolio across the domains, flags the Clear-Chaotic cliff, and routes each issue to its fitting response and framework. A meta-tool for picking the right tool. |
+| [six-thinking-hats](skills/six-thinking-hats/) | De Bono's Six Thinking Hats examines an idea or decision from every angle by parallel thinking. The Blue hat sets the focus question, five hats (White, Red, Black, Yellow, Green) examine it in parallel each in its strict mode, then a Blue-hat synthesis reaches a conclusion with actions, the emotional read, and the risks that must be mitigated. |
+| [cognitive-bias-audit](skills/cognitive-bias-audit/) | Audits a decision, plan, or forecast for the cognitive biases distorting it. One parallel hunter per bias family (belief, confidence, attachment, social, framing) cites where this specific reasoning is exposed, then synthesis ranks the most dangerous biases and prescribes structural debiasing. Evidence from the actual reasoning, not generic warnings. |
 
 ### Research
 
