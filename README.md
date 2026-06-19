@@ -1,8 +1,10 @@
 # Latticework
 
-> *"You've got to have models in your head and array your experience — both vicarious and direct — on this latticework of models."* — Charlie Munger
+> *"You've got to have models in your head and array your experience, both vicarious and direct, on this latticework of models."*
+>
+> Charlie Munger
 
-The name comes from Munger's idea: no single framework explains much on its own, but held together they compound into judgment. This repo is that latticework — one model per skill, most useful when you reach for several at once.
+The name comes from Munger's idea: no single framework explains much on its own, but held together they compound into judgment. This repo is that latticework: one model per skill, most useful when you reach for several at once.
 
 A collection of structured thinking and analysis frameworks, packaged as agent skills. Each skill lives in its own folder and is written to be **model- and harness-agnostic**, usable from Claude Code, Codex, Copilot CLI, Gemini CLI, or any agent runtime that can load a skill.
 
@@ -152,15 +154,15 @@ General-purpose reasoning tools, not tied to business strategy. Reach for these 
 
 ## How to start a skill
 
-You don't have to prepare documents or fill in a form. Invoke the skill and give it what it needs in plain language — it asks for anything missing. Inputs come in a few shapes:
+You don't have to prepare documents or fill in a form. Invoke the skill and give it what it needs in plain language. It asks for anything missing. Inputs come in a few shapes:
 
-- **Just invoke it** — questionnaires interview you, no prep: [ocean-personality-test](skills/ocean-personality-test/), [hexaco-personality-test](skills/hexaco-personality-test/).
-- **Give a subject, then get interviewed** — guided framing and facilitation that draws the rest out of you: [tosca-problem-definition](skills/tosca-problem-definition/), [okr](skills/okr/), [design-thinking](skills/design-thinking/), [pdca-cycle](skills/pdca-cycle/).
-- **Give a topic, or paste your reasoning** — research and thinking tools that work on what you hand them: [storm-research](skills/storm-research/), [cognitive-bias-audit](skills/cognitive-bias-audit/), [pre-mortem](skills/pre-mortem/), [six-thinking-hats](skills/six-thinking-hats/).
-- **Give a subject + an objective** — most analyses; the objective is what anchors them: [swot-analysis](skills/swot-analysis/), [pestel-analysis](skills/pestel-analysis/), [porters-five-forces](skills/porters-five-forces/), [business-model-canvas](skills/business-model-canvas/).
-- **Give a list of options to score** — prioritization and decision tools: [rice-prioritization](skills/rice-prioritization/), [weighted-decision-matrix](skills/weighted-decision-matrix/), [impact-feasibility-matrix](skills/impact-feasibility-matrix/).
+- **Just invoke it.** Questionnaires interview you, no prep: [ocean-personality-test](skills/ocean-personality-test/), [hexaco-personality-test](skills/hexaco-personality-test/).
+- **Give a subject, then get interviewed.** Guided framing and facilitation that draws the rest out of you: [tosca-problem-definition](skills/tosca-problem-definition/), [okr](skills/okr/), [design-thinking](skills/design-thinking/), [pdca-cycle](skills/pdca-cycle/).
+- **Give a topic, or paste your reasoning.** Research and thinking tools that work on what you hand them: [storm-research](skills/storm-research/), [cognitive-bias-audit](skills/cognitive-bias-audit/), [pre-mortem](skills/pre-mortem/), [six-thinking-hats](skills/six-thinking-hats/).
+- **Give a subject and an objective.** Most analyses; the objective is what anchors them: [swot-analysis](skills/swot-analysis/), [pestel-analysis](skills/pestel-analysis/), [porters-five-forces](skills/porters-five-forces/), [business-model-canvas](skills/business-model-canvas/).
+- **Give a list of options to score.** Prioritization and decision tools: [rice-prioritization](skills/rice-prioritization/), [weighted-decision-matrix](skills/weighted-decision-matrix/), [impact-feasibility-matrix](skills/impact-feasibility-matrix/).
 
-Each skill's README has a short **Starting** note, and its `references/example.md` shows a full worked example — what to type, the input filled in, and what you get back.
+Each skill's README has a short **Starting** note, and its `references/example.md` shows a full worked example: what to type, the input filled in, and what you get back.
 
 ## What's a skill?
 
@@ -185,7 +187,7 @@ One folder per skill under `skills/`, named after the skill (kebab-case). Three 
 
 - **`SKILL.md`** (required) is for the agent. It is the procedure the runtime loads on demand.
 - **`README.md`** (optional) is for humans. GitHub renders it when someone opens the folder, so put the what and why here.
-- **`references/`** (optional) is also for the agent. It holds material the skill pulls in at runtime, such as prompt templates, scripts, or worked examples — including an `example.md` that shows how the skill is invoked and what input it expects. It is not the place for human documentation.
+- **`references/`** (optional) is also for the agent. It holds material the skill pulls in at runtime, such as prompt templates, scripts, or worked examples, including an `example.md` that shows how the skill is invoked and what input it expects. It is not the place for human documentation.
 
 Each `SKILL.md` carries YAML frontmatter:
 
