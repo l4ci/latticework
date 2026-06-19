@@ -4,7 +4,7 @@
 
 SWOT sorts the factors bearing on a goal into four quadrants: Strengths and Weaknesses (internal to the subject) and Opportunities and Threats (out in the world). Its origins are debated, usually traced to business-policy teaching at Harvard in the 1960s and to Albert Humphrey's research at the Stanford Research Institute. On its own the framework is just four lists. The value comes from the TOWS matrix, a later addition (Heinz Weihrich, 1982) that crosses the quadrants into concrete strategic options: use strengths on opportunities, defend weaknesses against threats, and so on.
 
-The framework, the quadrant checklists, the scoring, and the TOWS logic live in [references/framework.md](references/framework.md).
+The framework, the quadrant checklists, the scoring, and the TOWS logic live in [references/swot-analysis.md](references/swot-analysis.md).
 
 ## What it does
 

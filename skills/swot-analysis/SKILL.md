@@ -7,7 +7,7 @@ description: Use when the user wants a SWOT analysis of a company, product, proj
 
 Runs a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) anchored to a specific objective, then crosses the quadrants into a TOWS matrix to turn the four lists into ranked strategic options. Catches the failure where a SWOT stops at four lists; the strategy comes from the crossing.
 
-The framework, quadrant checklists, scoring, and the TOWS matrix live in [references/framework.md](references/framework.md). Load that file before analyzing and follow the internal-versus-external and anchor-to-objective rules exactly.
+The framework, quadrant checklists, scoring, and the TOWS matrix live in [references/swot-analysis.md](references/swot-analysis.md). Load that file before analyzing and follow the internal-versus-external and anchor-to-objective rules exactly.
 
 ## When to use
 

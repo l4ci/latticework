@@ -276,6 +276,8 @@ Check your runtime's docs for the exact path.
 
 New skill → new folder under `skills/` with a `SKILL.md`. Keep it harness-agnostic, keep it focused, and keep supporting material inside the folder. Ship a `README.md` that follows the [README structure](#skill-readme-structure): the four sections in order, with sibling cross-references in **When to use it** and no em dashes.
 
+Full walkthrough, including the SKILL.md anatomy, the `references/` files, the catalog entries to update here, and a pre-PR checklist, is in [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
 
 [MIT](LICENSE)
