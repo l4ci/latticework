@@ -1,6 +1,6 @@
 ---
 name: porters-five-forces
-description: Use when the user wants a Porter's Five Forces analysis (Branchenstrukturanalyse) of an industry or market, or asks to assess an industry's competitive structure, attractiveness, or profit potential. Fans out five parallel analyst subagents (one per force), each scoring its force against the standard determinants with real evidence, then synthesizes overall industry attractiveness and strategic implications into a detailed markdown report. Triggers include "Five Forces", "Porter analysis", "Branchenstrukturanalyse", "how attractive is this industry", "competitive structure of X".
+description: Use when the user wants a Porter's Five Forces analysis of an industry or market, or asks to assess an industry's competitive structure, attractiveness, or profit potential. Fans out five parallel analyst subagents (one per force), each scoring its force against the standard determinants with real evidence, then synthesizes overall industry attractiveness and strategic implications into a detailed markdown report. Triggers include "Five Forces", "Porter analysis", "how attractive is this industry", "competitive structure of X".
 ---
 
 # porters-five-forces
