@@ -9,3 +9,5 @@
 - KNOWN ANCHORS (optional): roughly 5,000 last-mile delivery firms operate in the UK, and a fleet-grade electric cargo bike runs about £6,000
 
 **You get back:** a report leading with the estimate and its uncertainty band (e.g. "~£40M, plausibly £15-120M"), an auditable decomposition table, the two or three load-bearing factors, the dominant uncertainty, and an independent-second-path cross-check.
+
+**See a full worked example:** [fermi-uk-cargo-bikes-2026-06-19.md](fermi-uk-cargo-bikes-2026-06-19.md) — the report this invocation produces.
