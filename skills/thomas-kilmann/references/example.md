@@ -8,3 +8,5 @@
 - CONTEXT (optional): "The relationship matters a lot, we've built this together for four years; no immediate time pressure; trust is generally high but this has been simmering for months; my habitual style is avoiding."
 
 **You get back:** a saved markdown report (`thomas-kilmann-cofounder-fundraising-<date>.md`) with a verdict and fit-score table, the situation, all five mode assessments, a recommended primary mode and fallback with concrete words to say, and a flag that your avoiding habit is mismatched here.
+
+**See a full worked example:** [thomas-kilmann-cofounder-fundraising-2026-06-19.md](thomas-kilmann-cofounder-fundraising-2026-06-19.md) — the report this invocation produces.

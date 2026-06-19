@@ -8,3 +8,5 @@
 - CONTEXT (optional): merged three weeks ago, a new lead from the API side, standups now run long with open disagreement over on-call ownership, no decisions sticking
 
 **You get back:** a saved markdown report (`tuckman-<team-slug>-<date>.md`) with a verdict and per-stage assessment table (match score and confidence per stage), the current stage and any regression, the leadership focus the stage needs, concrete moves to advance, and the one blocker in the way.
+
+**See a full worked example:** [tuckman-platform-squad-2026-06-19.md](tuckman-platform-squad-2026-06-19.md) — the report this invocation produces.

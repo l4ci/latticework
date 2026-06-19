@@ -9,3 +9,5 @@
 - CONTEXT (optional): main rivals are Blue Bottle and Counter Culture; suspected cost drag in outbound logistics and small-batch operations
 
 **You get back:** a saved markdown report (`value-chain-<company-slug>-<date>.md`) with a nine-activity value-chain map (cost, value, competitive verdict), per-activity detail, the sources of advantage, the weak links and leaks, and recommendations tied to the differentiation strategy.
+
+**See a full worked example:** [value-chain-trailhead-coffee-2026-06-19.md](value-chain-trailhead-coffee-2026-06-19.md) — the report this invocation produces.

@@ -8,3 +8,5 @@
 - CONTEXT (optional): "Free users are 70% of signups but under 2% convert; support load from free accounts is heavy; the board wants margin improvement this year; sales fears losing the top-of-funnel."
 
 **You get back:** a saved markdown report (`six-thinking-hats-free-tier-<date>.md`) with the Blue-hat verdict, the six hats laid out by direction, the synthesis with the emotional read and risks sorted into must-mitigate versus neutralized, and concrete next actions.
+
+**See a full worked example:** [six-thinking-hats-free-tier-2026-06-19.md](six-thinking-hats-free-tier-2026-06-19.md) — the report this invocation produces.

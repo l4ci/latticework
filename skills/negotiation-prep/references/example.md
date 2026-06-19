@@ -9,3 +9,5 @@
 - CONTEXT (optional): I'm currently at $158k elsewhere with a competing verbal offer at $180k; market rate for the role in this metro is roughly $175k-$195k
 
 **You get back:** a saved markdown report (`negotiation-prep-meridian-offer-<date>.md`) with a verdict on whether a deal is reachable, both sides' interests, both BATNAs and the mapped ZOPA, a move plan (anchor, concessions, objective criteria, responses to likely tactics), and the assumptions worth testing first.
+
+**See a full worked example:** [negotiation-prep-meridian-offer-2026-06-19.md](negotiation-prep-meridian-offer-2026-06-19.md) — the report this invocation produces.

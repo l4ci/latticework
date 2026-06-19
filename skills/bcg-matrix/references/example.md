@@ -9,3 +9,5 @@
 - CONTEXT (optional): three-year horizon; deciding next year's R&D and marketing budget allocation
 
 **You get back:** a saved markdown report with the matrix placing each unit, per-unit detail and recommended strategy (invest/hold/harvest/divest), a portfolio cash-flow balance assessment, and reallocation moves.
+
+**See a full worked example:** [bcg-soniqwave-2026-06-19.md](bcg-soniqwave-2026-06-19.md) — the report this invocation produces.

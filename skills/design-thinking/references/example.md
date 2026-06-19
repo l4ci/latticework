@@ -8,3 +8,5 @@
 - CONTEXT (optional): post-discharge readmission rates are above the regional average; we have a stack of discharge-nurse interviews but no patient-side research; budget is tight
 
 **You get back:** a living markdown design document (`design-thinking-<challenge-slug>-<date>.md`) carrying the empathy findings, the point-of-view and How Might We questions, the diverged-and-selected ideas, the prototypes, the test learnings, and a loop log of each iteration.
+
+**See a full worked example:** [design-thinking-patient-discharge-2026-06-19.md](design-thinking-patient-discharge-2026-06-19.md) — the report this invocation produces.

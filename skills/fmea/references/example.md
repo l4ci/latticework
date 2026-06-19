@@ -9,3 +9,5 @@
 - CONTEXT (optional): two spoilage incidents last year traced to a failed cooler-box seal; clinics log fridge temps manually; a regulator requires documented risk controls before launch
 
 **You get back:** a saved markdown report (`fmea-<subject-slug>-<date>.md`) with the full FMEA table (S/O/D, RPN, criticality per failure mode), the ranking with high-severity modes flagged, and a prioritized action plan naming whether each action cuts S, O, or D, plus target RPNs.
+
+**See a full worked example:** [fmea-vaccine-cold-chain-2026-06-19.md](fmea-vaccine-cold-chain-2026-06-19.md) — the report this invocation produces.

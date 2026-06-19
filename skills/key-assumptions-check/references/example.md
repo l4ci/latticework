@@ -9,3 +9,5 @@
 - ROLE (optional): the founders and the board deciding whether to fund the expansion
 
 **You get back:** a briefing-style markdown report with a bottom line on how sound the foundation is, the assumption register as a confidence-vs-impact table, the named linchpins, unsupported assumptions each with a next action, caveats to carry, and indicators to monitor.
+
+**See a full worked example:** [kac-germany-expansion-2026-06-19.md](kac-germany-expansion-2026-06-19.md) — the report this invocation produces.

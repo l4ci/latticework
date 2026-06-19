@@ -9,3 +9,5 @@
 - STAKES (optional): $45M is a third of our cash; a failed integration would force layoffs and likely cost the CEO the board's confidence
 
 **You get back:** a saved markdown report with a verdict and a table of live biases (family, where exposed, severity, confidence), exposure by bias family, the one or two most dangerous biases with prescribed debiasing moves and owners, and a corrected read of the decision.
+
+**See a full worked example:** [cognitive-bias-audit-eu-acquisition-2026-06-19.md](cognitive-bias-audit-eu-acquisition-2026-06-19.md) — the report this invocation produces.

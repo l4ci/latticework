@@ -8,3 +8,5 @@
 - CONTEXT (optional): triggered by a lease ending and losing senior hires to remote competitors; the COO sponsors it, but two regional VPs and most middle managers are skeptical
 
 **You get back:** a maintained markdown change plan (`kotter-change-<change-slug>-<date>.md`) covering all eight steps — urgency, coalition, vision, communication, barriers, short-term wins, sustained acceleration, anchoring — plus a record that each step's gate question was answered before advancing.
+
+**See a full worked example:** [kotter-change-brightline-remote-first-2026-06-19.md](kotter-change-brightline-remote-first-2026-06-19.md) — the report this invocation produces.

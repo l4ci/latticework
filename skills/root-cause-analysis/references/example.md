@@ -8,3 +8,5 @@
 - CONTEXT (optional): "Software/service domain. We deployed a new recommendations sidecar that Tuesday. Latency dashboards, deploy logs, and DB slow-query logs are available. No infra capacity change."
 
 **You get back:** a saved markdown report (`root-cause-analysis-<effect>-<date>.md`) with the verdict and lead countermeasures up front, the full fishbone across the 6 Ms, the 5-Whys chains for the strongest candidates, the verification of each claimed root cause against the timeline and data, and ranked countermeasures tied to the roots.
+
+**See a full worked example:** [root-cause-analysis-checkout-504-timeouts-2026-06-19.md](root-cause-analysis-checkout-504-timeouts-2026-06-19.md) — the report this invocation produces.

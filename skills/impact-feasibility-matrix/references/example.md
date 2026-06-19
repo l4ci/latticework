@@ -9,3 +9,5 @@
 - CONTEXT (optional): one product squad of five engineers, a single quarter, the public API depends on the auth refactor shipping first
 
 **You get back:** a saved markdown report (`impact-feasibility-<objective-slug>-<date>.md`) with the 2x2 matrix, a scored table of every option (impact, feasibility, quadrant, dependencies, confidence), quadrant detail, and a recommended sequence respecting dependencies.
+
+**See a full worked example:** [impact-feasibility-cut-first-week-churn-2026-06-19.md](impact-feasibility-cut-first-week-churn-2026-06-19.md) — the report this invocation produces.

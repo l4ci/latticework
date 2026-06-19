@@ -8,3 +8,5 @@
 - CONTEXT (optional): pre-launch solo founder, nothing built yet beyond a logo, ~$3k and three weekends to spend testing
 
 **You get back:** a maintained markdown experiment document (`lean-startup-<idea-slug>-<date>.md`) with the leap-of-faith assumptions (value and growth hypotheses marked), the chosen riskiest assumption, an experiment design with a pre-committed pass/fail metric, the results and learning, a pivot-or-persevere decision, and a loop log.
+
+**See a full worked example:** [lean-startup-allergy-dog-meals-2026-06-19.md](lean-startup-allergy-dog-meals-2026-06-19.md) — the report this invocation produces.

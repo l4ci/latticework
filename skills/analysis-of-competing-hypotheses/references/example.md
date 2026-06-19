@@ -9,3 +9,5 @@
 - ROLE (optional): the VP of Customer Success, who must decide where to put retention budget this quarter
 
 **You get back:** a saved markdown report leading with the ranked hypotheses and their relative likelihoods, the auditable scoring matrix, the linchpin evidence the verdict depends on, and indicators to watch that would change the answer.
+
+**See a full worked example:** [ach-q2-enterprise-churn-2026-06-19.md](ach-q2-enterprise-churn-2026-06-19.md) — the report this invocation produces.

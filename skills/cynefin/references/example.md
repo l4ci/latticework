@@ -8,3 +8,5 @@
 - CONTEXT (optional): a hard regulatory deadline in nine months, a team of six, two prior attempts that stalled in integration, and a CFO who wants a fixed go-live date
 
 **You get back:** a saved markdown report (`cynefin-<situation-slug>-<date>.md`) with the issues sorted into Cynefin domains, the matching action model for each, anything flagged on the Clear-Chaotic cliff or stuck in Disorder, and which other framework fits each domain.
+
+**See a full worked example:** [cynefin-billing-migration-2026-06-19.md](cynefin-billing-migration-2026-06-19.md) — the report this invocation produces.

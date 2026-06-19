@@ -9,3 +9,5 @@
 - CONTEXT (optional): logging dropped 70% after we retired the paper form; a reminder email campaign three months ago changed nothing; we need a fix before the Q3 safety audit
 
 **You get back:** a saved markdown report (`com-b-<behaviour-slug>-<date>.md`) with the six-component scan, a verdict naming whether the gap is capability, opportunity, or motivation, and targeted interventions mapped to Behaviour Change Wheel functions.
+
+**See a full worked example:** [com-b-log-near-misses-2026-06-19.md](com-b-log-near-misses-2026-06-19.md) — the report this invocation produces.

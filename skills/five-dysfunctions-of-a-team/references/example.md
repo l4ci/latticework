@@ -8,3 +8,5 @@
 - CONTEXT (optional): meetings are polite and quiet, real disagreements happen in side-channels afterward, the last three roadmap commitments all slipped with no one held to account, and the VP ends up making every hard call alone
 
 **You get back:** a saved markdown report (`five-dysfunctions-<team-slug>-<date>.md`) with the pyramid scored layer by layer, the lowest broken layer named as the binding constraint, the cascade showing how it surfaces higher up, and interventions sequenced from the base upward.
+
+**See a full worked example:** [five-dysfunctions-product-leadership-2026-06-19.md](five-dysfunctions-product-leadership-2026-06-19.md) — the report this invocation produces.

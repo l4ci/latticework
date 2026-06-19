@@ -8,3 +8,5 @@
 - CONTEXT (required): Northwind acquired Cardinal Express (180 people) four months ago; intended future state is one merged operations team on a shared dispatch system, but on-time delivery has dropped and Cardinal staff are leaving
 
 **You get back:** a saved markdown report (`7s-northwind-logistics-<date>.md`) with a seven-element summary table, per-element detail, an alignment analysis, ranked misalignments with fixes and their knock-on adjustments, and a verdict on the realignment the merger needs.
+
+**See a full worked example:** [7s-northwind-logistics-2026-06-19.md](7s-northwind-logistics-2026-06-19.md) — the report this invocation produces.

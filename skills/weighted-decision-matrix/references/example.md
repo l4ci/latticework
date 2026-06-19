@@ -9,3 +9,5 @@
 - CONTEXT (optional): budget ceiling of $40k/year, a 12-person sales team, must integrate with our existing Gmail and Slack
 
 **You get back:** a saved markdown report (`decision-matrix-<decision-slug>-<date>.md`) with the calibrated criteria, weights, and scale up front, the scored matrix with weighted totals, per-option detail, a sensitivity check on whether the winner holds, and a recommendation with what would flip it.
+
+**See a full worked example:** [decision-matrix-crm-2026-06-19.md](decision-matrix-crm-2026-06-19.md) — the report this invocation produces.
