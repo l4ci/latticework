@@ -12,6 +12,16 @@ Most are business strategy, analysis, and management frameworks: SWOT, Porter's 
 
 ## Available skills
 
+Jump to a category:
+
+- [Strategy and business analysis](#strategy-and-business-analysis)
+- [Process and innovation methods](#process-and-innovation-methods)
+- [Execution and change](#execution-and-change)
+- [People and teams](#people-and-teams)
+- [Thinking and decision](#thinking-and-decision)
+- [Research](#research)
+- [Personal insight](#personal-insight)
+
 ### Strategy and business analysis
 
 #### Problem framing and structuring
