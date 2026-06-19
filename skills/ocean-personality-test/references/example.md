@@ -8,4 +8,4 @@
 
 **You get back:** a saved markdown report (`ocean-report-<date>.md`) with a summary table of all five dimensions (total, per-item average, and band with a text bar), a per-dimension deep dive grounded in your actual answers, notable trait interactions, reflection prompts, and the non-clinical caveats.
 
-**See a full worked example:** [ocean-report-2026-06-19.md](ocean-report-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [ocean-personality-test-2026-06-19.md](ocean-personality-test-2026-06-19.md) — the report this invocation produces.

@@ -9,4 +9,4 @@
 
 **You get back:** a saved markdown report (`7s-northwind-logistics-<date>.md`) with a seven-element summary table, per-element detail, an alignment analysis, ranked misalignments with fixes and their knock-on adjustments, and a verdict on the realignment the merger needs.
 
-**See a full worked example:** [7s-northwind-logistics-2026-06-19.md](7s-northwind-logistics-2026-06-19.md) — the report this invocation produces.
+**See a full worked example:** [mckinsey-7s-northwind-logistics-2026-06-19.md](mckinsey-7s-northwind-logistics-2026-06-19.md) — the report this invocation produces.
