@@ -1,4 +1,8 @@
-# Framewise
+# Latticework
+
+> *"You've got to have models in your head and array your experience — both vicarious and direct — on this latticework of models."* — Charlie Munger
+
+The name comes from Munger's idea: no single framework explains much on its own, but held together they compound into judgment. This repo is that latticework — one model per skill, most useful when you reach for several at once.
 
 A collection of structured thinking and analysis frameworks, packaged as agent skills. Each skill lives in its own folder and is written to be **model- and harness-agnostic**, usable from Claude Code, Codex, Copilot CLI, Gemini CLI, or any agent runtime that can load a skill.
 
@@ -165,7 +169,7 @@ A skill is a self-contained unit of reusable instructions an agent loads on dema
 ## Layout
 
 ```
-framewise/
+latticework/
 ├── README.md
 ├── LICENSE
 ├── .claude-plugin/
@@ -203,16 +207,16 @@ description: <one line, when an agent should reach for this skill>
 
 ## Using a skill
 
-This repo is a Claude Code plugin named **framewise**, and the same skills work standalone in any runtime that loads `SKILL.md` folders.
+This repo is a Claude Code plugin named **latticework**, and the same skills work standalone in any runtime that loads `SKILL.md` folders.
 
 **Claude Code (as a plugin):**
 
 ```shell
-/plugin marketplace add l4ci/framewise
-/plugin install framewise@framewise
+/plugin marketplace add l4ci/latticework
+/plugin install latticework@latticework
 ```
 
-The skills are then namespaced, for example `/framewise:swot-analysis` or `/framewise:hoshin-kanri`.
+The skills are then namespaced, for example `/latticework:swot-analysis` or `/latticework:hoshin-kanri`.
 
 **Standalone (any runtime):** copy a folder from `skills/` into your agent's skills directory, or point your runtime at `skills/`. Conventions vary by platform:
 

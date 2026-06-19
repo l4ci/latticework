@@ -1,11 +1,11 @@
 {
-  "name": "framewise",
+  "name": "latticework",
   "owner": {
     "name": "Volker Otto"
   },
   "plugins": [
     {
-      "name": "framewise",
+      "name": "latticework",
       "source": "./",
       "description": "Structured thinking and analysis frameworks, packaged as agent skills."
     }

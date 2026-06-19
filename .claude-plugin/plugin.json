@@ -1,13 +1,13 @@
 {
-  "name": "framewise",
+  "name": "latticework",
   "description": "Structured thinking and analysis frameworks, packaged as model- and harness-agnostic agent skills.",
   "version": "0.1.0",
   "author": {
     "name": "Volker Otto",
     "email": "hello@volkerotto.net"
   },
-  "homepage": "https://github.com/l4ci/framewise",
-  "repository": "https://github.com/l4ci/framewise",
+  "homepage": "https://github.com/l4ci/latticework",
+  "repository": "https://github.com/l4ci/latticework",
   "license": "MIT",
   "keywords": [
     "skills",
