@@ -1,15 +1,27 @@
 # negotiation-prep
 
-Prepares for a negotiation before you are in the room. The method is principled, interest-based negotiation from Roger Fisher and William Ury (*Getting to Yes*, 1981), built on two ideas: negotiate over interests rather than positions, and bring strength through your BATNA, your Best Alternative To a Negotiated Agreement, rather than through stubbornness. The four principles are to separate the people from the problem, focus on interests not positions, invent options for mutual gain, and insist on objective criteria.
+## What this is
 
-This skill runs the groundwork in parallel. After fixing the frame (the parties, the deal, what is known), five analyst subagents each take one part: your interests, the other side's likely interests, your BATNA and walk-away point, their likely BATNA and walk-away, and the options for mutual gain plus the objective standards to invoke. Each marks every claim as a fact or an assumption still to be tested. A synthesis pass then maps the ZOPA, the zone where both sides' walk-away points overlap and a deal beats both alternatives, sets your target and walk-away, sequences the opening anchor and the concessions, prepares responses to likely hardball, and names the assumptions most worth testing first.
+Principled, interest-based negotiation comes from Roger Fisher and William Ury (*Getting to Yes*, 1981). It rejects the choice between hard bargaining and soft bargaining and decides the substance on its merits, built on two ideas: negotiate over interests rather than positions, and bring strength through your BATNA, your Best Alternative To a Negotiated Agreement, rather than through stubbornness. The four principles are to separate the people from the problem, focus on interests not positions, invent options for mutual gain, and insist on objective criteria. Most of the work is preparation: you settle interests, alternatives, and the ZOPA (the zone where both walk-away points overlap) before you enter the room, not while reacting in it.
 
-Four mistakes recur, and the skill guards against each. People haggle over numbers with no grasp of why either side wants them; they walk in with no BATNA and negotiate blind from fear; they confuse the outcome they wish for with the ZOPA that the other side's numbers actually permit; and they treat the whole thing as win/lose when mutual-gain options exist. The skill counters these by surfacing interests first, deriving both BATNAs, and checking whether the reservation points truly overlap. It also holds the line that the other side's interests and alternatives are estimated, not known, so a mapped ZOPA shows room for a deal, never a guarantee of one.
+The four principles, BATNA, the ZOPA, positions versus interests, and the pitfalls live in [references/negotiation.md](references/negotiation.md).
 
-## Starting
+## What it does
 
-**You provide:** what's being negotiated and with whom, and optionally your goal and the context (numbers on the table, the relationship, constraints). Something like "Help me prepare for my salary negotiation".
+The skill runs the groundwork in parallel. After fixing the frame (the parties, the deal, what is known), five analyst subagents each take one part: your interests, the other side's likely interests, your BATNA and walk-away point, their likely BATNA and walk-away, and the options for mutual gain plus the objective standards to invoke. Each marks every claim as a fact or an assumption still to be tested. A synthesis pass then maps the ZOPA, sets your target and walk-away, sequences the opening anchor and the concessions, prepares responses to likely hardball, and names the assumptions most worth testing first. The output is a saved markdown report. The method guards against four recurring mistakes by surfacing interests first, deriving both BATNAs, and checking whether the reservation points truly overlap rather than confusing the outcome you want with the ZOPA their numbers allow. It also holds the line that the other side's interests and alternatives are estimated, not known: a mapped ZOPA shows room for a deal, never a guarantee of one.
+
+## When to use it
+
+Reach for this skill when you are preparing for a specific negotiation and want the groundwork done before you enter the room: a salary or offer, a sales or purchase deal, a partnership, a vendor contract, a dispute settlement. The unit of work is one negotiation with identifiable parties.
+
+- If you first need to choose a conflict mode (compete, collaborate, compromise, accommodate, avoid), use [thomas-kilmann](../thomas-kilmann/).
+- If you need to map who holds power across a wider field, use [stakeholder-analysis](../stakeholder-analysis/).
+- If you need to score the offers once they are on the table, use [weighted-decision-matrix](../weighted-decision-matrix/).
+
+## How to get started
+
+**You provide:** what's being negotiated and with whom, and optionally your goal and the context (numbers on the table, the relationship, constraints). Something like "Help me prepare for my salary negotiation."
 
 See [references/example.md](references/example.md) for a worked example.
 
-The procedure is in [SKILL.md](SKILL.md); the four principles, BATNA, the ZOPA, positions versus interests, and the pitfalls are in [references/negotiation.md](references/negotiation.md).
+The procedure is in [SKILL.md](SKILL.md).

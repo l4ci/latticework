@@ -194,7 +194,7 @@ You don't have to prepare documents or fill in a form. Invoke the skill and give
 - **Give a subject and an objective.** Most analyses; the objective is what anchors them: [swot-analysis](skills/swot-analysis/), [pestel-analysis](skills/pestel-analysis/), [porters-five-forces](skills/porters-five-forces/), [business-model-canvas](skills/business-model-canvas/).
 - **Give a list of options to score.** Prioritization and decision tools: [rice-prioritization](skills/rice-prioritization/), [weighted-decision-matrix](skills/weighted-decision-matrix/), [impact-feasibility-matrix](skills/impact-feasibility-matrix/).
 
-Each skill's README has a short **Starting** note, and its `references/example.md` shows a full worked example: what to type, the input filled in, and what you get back.
+Each skill's README has a **How to get started** note, and its `references/example.md` shows a full worked example: what to type, the input filled in, and what you get back.
 
 ## What's a skill?
 
@@ -218,7 +218,7 @@ latticework/
 One folder per skill under `skills/`, named after the skill (kebab-case). Three kinds of file can live in it, split by who reads them:
 
 - **`SKILL.md`** (required) is for the agent. It is the procedure the runtime loads on demand.
-- **`README.md`** (optional) is for humans. GitHub renders it when someone opens the folder, so put the what and why here.
+- **`README.md`** (optional) is for humans. GitHub renders it when someone opens the folder, so put the what and why here. When present it follows the [README structure](#skill-readme-structure) below.
 - **`references/`** (optional) is also for the agent. It holds material the skill pulls in at runtime, such as prompt templates, scripts, or worked examples, including an `example.md` that shows how the skill is invoked and what input it expects. It is not the place for human documentation.
 
 Each `SKILL.md` carries YAML frontmatter:
@@ -231,6 +231,17 @@ description: <one line, when an agent should reach for this skill>
 
 <the skill body: the procedure, in plain action language>
 ```
+
+## Skill README structure
+
+Every skill's `README.md` uses the same four sections, in this order, so the catalog reads consistently. The H1 is the skill name.
+
+1. **What this is** is the framework itself: what it is, its parts, and where it came from (founder, source, date). It ends with a link to the skill's framework reference file, if it has one.
+2. **What it does** is the skill's mechanics: how it runs (its stages and parallel subagents) and what report it produces, plus any guardrails that keep it honest.
+3. **When to use it** says when to reach for the skill, and which sibling skill to use instead when the question is a better fit for one. Point to siblings with relative links.
+4. **How to get started** says what the user provides, then links `references/example.md` and `SKILL.md`.
+
+See [swot-analysis](skills/swot-analysis/) for the reference example.
 
 ## Design principles
 
@@ -263,7 +274,7 @@ Check your runtime's docs for the exact path.
 
 ## Contributing
 
-New skill → new folder under `skills/` with a `SKILL.md`. Keep it harness-agnostic, keep it focused, keep supporting material inside the folder.
+New skill → new folder under `skills/` with a `SKILL.md`. Keep it harness-agnostic, keep it focused, and keep supporting material inside the folder. Ship a `README.md` that follows the [README structure](#skill-readme-structure): the four sections in order, with sibling cross-references in **When to use it** and no em dashes.
 
 ## License
 
