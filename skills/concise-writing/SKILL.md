@@ -1,6 +1,6 @@
 ---
 name: concise-writing
-description: Use when the user wants to write or edit text so it is only as long as it needs to be and carries no signs of AI writing. Anchors to the purpose and reader, then runs the text down a cut ladder (delete whole units before trimming words), scans it against the compressed catalog of AI tells, and reads it aloud, looping draft to audit to final. Guards against over-trimming: the floor is meaning, not word count. Triggers include "tighten this", "make it shorter", "cut the fluff", "less verbose", "trim this", "de-slop", "this sounds AI-written", "write a concise", "edit for length".
+description: Use when the user wants to write or edit text so it is only as long as it needs to be and carries no signs of AI writing. Anchors to the purpose and reader, then runs the text down a cut ladder (delete whole units before trimming words), scans it against the compressed catalog of AI tells, and reads it aloud, looping draft to audit to final. Guards against over-trimming so the floor stays meaning, not word count. Triggers include "tighten this", "make it shorter", "cut the fluff", "less verbose", "trim this", "de-slop", "this sounds AI-written", "write a concise", "edit for length".
 ---
 
 # concise-writing
