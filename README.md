@@ -32,7 +32,7 @@ Jump to a category:
   - [Conflict and negotiation](#conflict-and-negotiation)
 - 🧭 [Thinking and decision](#-thinking-and-decision)
 - 🔬 [Research](#-research)
-- ✍️ [Writing and communication](#-writing-and-communication)
+- ✍️ [Writing and communication](#️-writing-and-communication)
 - 🧠 [Personal insight](#-personal-insight)
 
 ### 🎯 Strategy and business analysis
