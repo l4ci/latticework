@@ -32,6 +32,7 @@ Jump to a category:
   - [Conflict and negotiation](#conflict-and-negotiation)
 - 🧭 [Thinking and decision](#-thinking-and-decision)
 - 🔬 [Research](#-research)
+- ✍️ [Writing and communication](#-writing-and-communication)
 - 🧠 [Personal insight](#-personal-insight)
 
 ### 🎯 Strategy and business analysis
@@ -181,6 +182,14 @@ Investigating a question and pressure-testing what you find, from multi-source r
 | [fermi-estimation](skills/fermi-estimation/) | Produces an order-of-magnitude estimate with no data at hand (Fermi's method). Decomposes the unknown quantity in parallel into a chain of factors, estimates each as a range, multiplies the chain, then cross-checks against an independent decomposition. The inside-view counterpart to reference-class forecasting. |
 | [reference-class-forecasting](skills/reference-class-forecasting/) | Forecasts a duration or cost from how similar past cases turned out (Kahneman's outside view). Builds a reference class in parallel and places the case in its base-rate distribution, checked for optimism. Counters the planning fallacy with base rates, not case specifics. |
 
+### ✍️ Writing and communication
+
+Tools for the words themselves, not the analysis behind them. Make a draft land in fewer words and without the marks of machine prose.
+
+| Skill | What it does |
+|-------|--------------|
+| [concise-writing](skills/concise-writing/) | Writes or edits text so it is only as long as it needs to be and carries no signs of AI writing. Anchors to the purpose and reader, runs the text down a cut ladder (whole sections before words), rewrites the AI tells, and reads it aloud, looping draft to audit to final. Guards against over-trimming: the floor is meaning, not word count. |
+
 ### 🧠 Personal insight
 
 Self-assessment questionnaires. Answer the statements and get a scored, written read on your personality.
@@ -199,6 +208,7 @@ You don't have to prepare documents or fill in a form. Invoke the skill and give
 - **Give a topic, or paste your reasoning.** Research and thinking tools that work on what you hand them: [storm-research](skills/storm-research/), [cognitive-bias-audit](skills/cognitive-bias-audit/), [pre-mortem](skills/pre-mortem/), [six-thinking-hats](skills/six-thinking-hats/), [first-principles](skills/first-principles/), [inversion](skills/inversion/).
 - **Give a subject and an objective.** Most analyses; the objective is what anchors them: [swot-analysis](skills/swot-analysis/), [pestel-analysis](skills/pestel-analysis/), [porters-five-forces](skills/porters-five-forces/), [business-model-canvas](skills/business-model-canvas/).
 - **Give a list of options to score.** Prioritization and decision tools: [rice-prioritization](skills/rice-prioritization/), [weighted-decision-matrix](skills/weighted-decision-matrix/), [impact-feasibility-matrix](skills/impact-feasibility-matrix/).
+- **Hand over text to fix, or a brief to write.** Say what it is for and who reads it: [concise-writing](skills/concise-writing/).
 
 Each skill's README has a **How to get started** note, and its `references/example.md` shows a full worked example: what to type, the input filled in, and what you get back.
 
